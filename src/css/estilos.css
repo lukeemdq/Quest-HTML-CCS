@@ -1,0 +1,87 @@
+body {
+    background: url(../images/bg-desktop.svg) ;
+    background-color: hsl(257, 40%, 49%);
+    background-size: cover;      /* faz a imagem cobrir toda a tela */  
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}       
+
+.header {
+    padding: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.main {
+    display: flex;
+    padding: 45px;  
+    color: #fff;
+    gap: 40px;  
+}
+
+
+
+.main h1 {
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-size: 2.4rem;
+    max-width: 500px;
+}
+
+.main p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    max-width: 550px;
+}
+
+.btn-register {
+    padding: 15px 60px;
+    background-color: #fff;
+    border-radius: 50px;
+    font-weight: 400px;
+    transition: 0.3s;
+}
+
+.btn-register:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 50px 50px; 
+}
+
+.footer .social {
+    display: flex;
+    
+}
+
+.footer nav ul li a {
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin: 10px;
+    transition: 0.3s;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+
+
+.footer nav ul li a:hover {
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);;
+}

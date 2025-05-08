@@ -1,0 +1,37 @@
+@media (max-width: 450px) {
+  body {
+    background: url(../images/bg-mobile.svg);
+    background-color: hsl(257, 40%, 49%);
+    background-size: cover; /* faz a imagem cobrir toda a tela */
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .header img {
+    width: 60%;
+  }
+
+  .main {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+  .main h1 {
+    font-size: 1.8rem;
+    
+  }
+
+  .main p {
+    font-size: 1rem;
+    margin-bottom: 50px;
+  }
+
+  .footer {
+    align-items: center;
+    margin: 20px 0;
+    justify-content: center;
+  }
+}
